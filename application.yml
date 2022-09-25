@@ -8,7 +8,7 @@ management:
     info:
       env:
         enabled: true
-  endpoints:
-    web:
-      exposure:
-        include: health, info
+endpoints:
+  web:
+    exposure:
+      include: health, info
