@@ -11,10 +11,10 @@ spring:
     password: pass
     driver-class-name: com.mysql.cj.jdbc.Driver
 
-# eureka:
-#   client:
-#     service-url:
-#       defaultZone: http://service-registry:8761/eureka/
+eureka:
+  client:
+    service-url:
+      defaultZone: http://service-registry:8761/eureka/
 
 info:
   app:
