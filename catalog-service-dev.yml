@@ -35,4 +35,3 @@ info:
     name: ${spring.application.name}
     version: 1.0.0
     description: Catalog Microservice
-Footer
