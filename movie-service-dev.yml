@@ -1,5 +1,5 @@
 server:
-  port: 9001
+  port: 8082
 
 spring:
   jpa:
@@ -10,11 +10,6 @@ spring:
     username: user
     password: pass
     driver-class-name: com.mysql.cj.jdbc.Driver
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://service-registry:8761/eureka/
 
 info:
   app:
